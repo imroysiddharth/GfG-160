@@ -7,7 +7,7 @@ public class NextPermutation {
         while(i>=0 && arr[i]>=arr[i+1])i--;
         if(i>=0){
             int j = arr.length-1;
-            
+             
             while(arr[j]<=arr[i])j--;
             
             swap(arr,i, j);
